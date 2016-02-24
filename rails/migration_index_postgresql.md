@@ -10,9 +10,10 @@ class AddIndexToAsksActive < ActiveRecord::Migration
 
   def change
     reversible do |direction|
-      direction.up { execute("SET SESSION statement_timeout = 0;") }
+      direction.up   { execute("SET SESSION statement_timeout = 0;") }
       direction.down { execute("SET SESSION statement_timeout = 0;") }
     end
+    
     add_index :asks, :active, algorithm: :concurrently
   end
 end
