@@ -14,7 +14,6 @@ class AddIndexToAsksActive < ActiveRecord::Migration
 end
 ```
 
-found it here: https://robots.thoughtbot.com/how-to-create-postgres-indexes-concurrently-in
-
-PR comment: https://github.com/freeletics/fl-backend-rails/pull/421#discussion_r41237874
-Postgres Doc on concurrently: http://www.postgresql.org/docs/9.4/static/sql-createindex.html#SQL-CREATEINDEX-CONCURRENTLY
+* found it here: https://robots.thoughtbot.com/how-to-create-postgres-indexes-concurrently-in
+* PR comment: https://github.com/freeletics/fl-backend-rails/pull/421#discussion_r41237874
+* Postgres Doc on concurrently: http://www.postgresql.org/docs/9.4/static/sql-createindex.html#SQL-CREATEINDEX-CONCURRENTLY
