@@ -5,7 +5,8 @@ That can result in unacceptable downtime during a production deploy.
 On a large table, indexing can take hours.
 
 The disable_ddl_transaction! method applies only to that migration file. Adjacent migrations still run in their own transactions and roll back automatically if they fail. 
-**it’s a good idea to isolate concurrent index migrations to their own migration files **
+
+** it’s a good idea to isolate concurrent index migrations to their own migration files **
 
 ```
 class AddIndexToAsksActive < ActiveRecord::Migration
