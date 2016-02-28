@@ -9,11 +9,13 @@ Today I Learned
 * [postgresql](#postgresql)
 * [rails](#rails)
 * [ruby](#ruby)
+
 ---
 
 ### docker
 
 - [deploy simple rails app on aws](docker/deploy_simple_rails_app_on_aws.md)
+
 ---
 
 ### postgresql
@@ -21,6 +23,7 @@ Today I Learned
 - [check postgres version](postgresql/check_postgres_version.md)
 - [kill all active connenctions](postgresql/kill_all_active_connenctions.md)
 - [show database sessions](postgresql/show_database_sessions.md)
+
 ---
 
 ### rails
@@ -28,6 +31,7 @@ Today I Learned
 - [migration change column default](rails/migration_change_column_default.md)
 - [migration index postgresql](rails/migration_index_postgresql.md)
 - [use rails root join](rails/use_rails_root_join.md)
+
 ---
 
 ### ruby

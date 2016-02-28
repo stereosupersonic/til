@@ -19,6 +19,7 @@ md << ["# til", "Today I Learned", "", "---", "", "### Categories", ""]
 tils.each do |dir, files|
   md << "* [#{dir}](##{dir.downcase})" unless files.empty?
 end
+md << ""
 
 tils.each do |dir, files|
   next if files.empty?
@@ -26,6 +27,7 @@ tils.each do |dir, files|
   files.each do |f|
     md << "- [#{f.label}](#{f.link})"
   end
+  md << ""
 end
 
 File.open(File.join(root, "README.md"), "w") { |f| f << md.join("\n") }
