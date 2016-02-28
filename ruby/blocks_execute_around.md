@@ -19,8 +19,9 @@ with_logging("compute something") do
 end
 ```
 
-In the wild: [say_with_time](https://github.com/rails/rails/blob/v4.2.2/activerecord/lib/active_record/migration.rb#L629)
-In the wild: [with return value](https://github.com/rails/rails/blob/v4.2.2/activerecord/lib/active_record/transactions.rb#L347)
+### In the wild:
+* [say_with_time](https://github.com/rails/rails/blob/v4.2.2/activerecord/lib/active_record/migration.rb#L629)
+* [with return value](https://github.com/rails/rails/blob/v4.2.2/activerecord/lib/active_record/transactions.rb#L347)
 
 ## Example Intitalization Block
 ```
