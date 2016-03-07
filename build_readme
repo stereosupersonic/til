@@ -1,6 +1,7 @@
 #!/usr/bin/env ruby
 require "ostruct"
 require "pathname"
+
 root =  File.dirname(File.expand_path(__FILE__))
 root_path = Pathname.new(root)
 tils = {}.tap do |result|

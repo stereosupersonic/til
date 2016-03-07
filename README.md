@@ -6,6 +6,7 @@ Today I Learned
 ### Categories
 
 * [docker](#docker)
+* [kubernetes](#kubernetes)
 * [postgresql](#postgresql)
 * [rails](#rails)
 * [ruby](#ruby)
@@ -15,6 +16,12 @@ Today I Learned
 ### docker
 
 - [deploy simple rails app on aws](docker/deploy_simple_rails_app_on_aws.md)
+
+---
+
+### kubernetes
+
+- [pod details](kubernetes/pod_details.md)
 
 ---
 
