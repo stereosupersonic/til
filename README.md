@@ -5,11 +5,18 @@ Today I Learned
 
 ### Categories
 
+* [bash](#bash)
 * [docker](#docker)
 * [kubernetes](#kubernetes)
 * [postgresql](#postgresql)
 * [rails](#rails)
 * [ruby](#ruby)
+
+---
+
+### bash
+
+- [sed remove part of a string](bash/sed_remove_part_of_a_string.md)
 
 ---
 
