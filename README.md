@@ -21,6 +21,7 @@ Today I Learned
 
 ### kubernetes
 
+- [delete all pods](kubernetes/delete_all_pods.md)
 - [pod details](kubernetes/pod_details.md)
 
 ---
