@@ -28,6 +28,7 @@ Today I Learned
 
 ### kubernetes
 
+- [create a new pod](kubernetes/create_a_new_pod.md)
 - [delete all pods](kubernetes/delete_all_pods.md)
 - [download file from pod](kubernetes/download_file_from_pod.md)
 - [pod details](kubernetes/pod_details.md)
