@@ -29,7 +29,9 @@ Today I Learned
 ### kubernetes
 
 - [delete all pods](kubernetes/delete_all_pods.md)
+- [download file from pod](kubernetes/download_file_from_pod.md)
 - [pod details](kubernetes/pod_details.md)
+- [upload file to pod](kubernetes/upload_file_to_pod.md)
 
 ---
 
