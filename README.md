@@ -11,6 +11,7 @@ Today I Learned
 * [postgresql](#postgresql)
 * [rails](#rails)
 * [ruby](#ruby)
+* [sql](#sql)
 
 ---
 
@@ -60,3 +61,9 @@ Today I Learned
 - [blocks save to execute later](ruby/blocks_save_to_execute_later.md)
 - [max by over sort by last](ruby/max_by_over_sort_by_last.md)
 - [ruby2 keyword arguments with options](ruby/ruby2_keyword_arguments_with_options.md)
+
+---
+
+### sql
+
+- [joins](sql/joins.md)
