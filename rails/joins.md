@@ -1,6 +1,6 @@
 # Joins in rails
 
-(SQL Joins)[../sql/joins.md]
+[SQL Joins](../sql/joins.md)
 
 
 ## inner join
