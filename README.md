@@ -46,6 +46,7 @@ Today I Learned
 
 ### rails
 
+- [joins](rails/joins.md)
 - [migration change column default](rails/migration_change_column_default.md)
 - [migration index postgresql](rails/migration_index_postgresql.md)
 - [use rails root join](rails/use_rails_root_join.md)
