@@ -5,7 +5,7 @@
 
 ## inner join
 
-**includes**
+**joins**
 ```
 User.joins(:notification_info).where(notification_infos: {optivo_blacklisted: [false, nil], optivo_bounced: [false, nil]})
 ```
