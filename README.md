@@ -42,6 +42,7 @@ Today I Learned
 - [check postgres version](postgresql/check_postgres_version.md)
 - [kill all active connenctions](postgresql/kill_all_active_connenctions.md)
 - [show database sessions](postgresql/show_database_sessions.md)
+- [transaction isolation level](postgresql/transaction_isolation_level.md)
 
 ---
 
