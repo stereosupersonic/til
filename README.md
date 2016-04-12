@@ -8,10 +8,12 @@ Today I Learned
 * [bash](#bash)
 * [docker](#docker)
 * [kubernetes](#kubernetes)
+* [math](#math)
 * [postgresql](#postgresql)
 * [rails](#rails)
 * [ruby](#ruby)
 * [sql](#sql)
+* [various](#various)
 
 ---
 
@@ -34,6 +36,13 @@ Today I Learned
 - [download file from pod](kubernetes/download_file_from_pod.md)
 - [pod details](kubernetes/pod_details.md)
 - [upload file to pod](kubernetes/upload_file_to_pod.md)
+
+---
+
+### math
+
+- [fibonacci](math/fibonacci.md)
+- [gaußsche summenformel](math/gaußsche_summenformel.md)
 
 ---
 
@@ -68,3 +77,9 @@ Today I Learned
 ### sql
 
 - [joins](sql/joins.md)
+
+---
+
+### various
+
+- [emails](various/emails.md)
