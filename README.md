@@ -61,6 +61,7 @@ Today I Learned
 - [make class abstract](rails/make_class_abstract.md)
 - [migration change column default](rails/migration_change_column_default.md)
 - [migration index postgresql](rails/migration_index_postgresql.md)
+- [retry n times](rails/retry_n_times.md)
 - [use rails root join](rails/use_rails_root_join.md)
 
 ---
