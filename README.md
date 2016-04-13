@@ -57,6 +57,7 @@ Today I Learned
 
 ### rails
 
+- [all uniq values pluck](rails/all_uniq_values_pluck.md)
 - [joins](rails/joins.md)
 - [make class abstract](rails/make_class_abstract.md)
 - [migration change column default](rails/migration_change_column_default.md)
