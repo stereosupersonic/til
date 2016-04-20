@@ -11,6 +11,7 @@ Today I Learned
 * [math](#math)
 * [postgresql](#postgresql)
 * [rails](#rails)
+* [rspec](#rspec)
 * [ruby](#ruby)
 * [sql](#sql)
 * [various](#various)
@@ -64,6 +65,12 @@ Today I Learned
 - [migration index postgresql](rails/migration_index_postgresql.md)
 - [retry n times](rails/retry_n_times.md)
 - [use rails root join](rails/use_rails_root_join.md)
+
+---
+
+### rspec
+
+- [mock every instance](rspec/mock_every_instance.md)
 
 ---
 
