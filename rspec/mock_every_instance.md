@@ -11,6 +11,8 @@ expect(lucian_client).to receive(:fetch_bw_plan).with(request_object).and_return
 ## after
 ```
 expect_any_instance_of(Lucian::Client).to receive(:fetch_bw_plan).with(request_object).and_return [[]]
+# or if may not be called
+allow_any_instance_of(Lucian::Client).to receive(:fetch_bw_plan).with(request_object).and_return [[]]
 
 ```
 
