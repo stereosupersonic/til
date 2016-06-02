@@ -61,6 +61,7 @@ Today I Learned
 
 - [all uniq values pluck](rails/all_uniq_values_pluck.md)
 - [avoid race conditions with uniq index](rails/avoid_race_conditions_with_uniq_index.md)
+- [find by exceptions](rails/find_by_exceptions.md)
 - [joins](rails/joins.md)
 - [make class abstract](rails/make_class_abstract.md)
 - [migration change column default](rails/migration_change_column_default.md)
