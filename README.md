@@ -49,6 +49,7 @@ Today I Learned
 
 ### postgresql
 
+- [backup and restore](postgresql/backup_and_restore.md)
 - [check postgres version](postgresql/check_postgres_version.md)
 - [kill all active connenctions](postgresql/kill_all_active_connenctions.md)
 - [show database sessions](postgresql/show_database_sessions.md)
@@ -59,11 +60,13 @@ Today I Learned
 ### rails
 
 - [all uniq values pluck](rails/all_uniq_values_pluck.md)
+- [avoid race conditions with uniq index](rails/avoid_race_conditions_with_uniq_index.md)
 - [joins](rails/joins.md)
 - [make class abstract](rails/make_class_abstract.md)
 - [migration change column default](rails/migration_change_column_default.md)
 - [migration index postgresql](rails/migration_index_postgresql.md)
 - [retry n times](rails/retry_n_times.md)
+- [tokens with message verifier](rails/tokens_with_message_verifier.md)
 - [use rails root join](rails/use_rails_root_join.md)
 
 ---
@@ -71,6 +74,7 @@ Today I Learned
 ### rspec
 
 - [mock every instance](rspec/mock_every_instance.md)
+- [mocks](rspec/mocks.md)
 
 ---
 
