@@ -61,6 +61,7 @@ Today I Learned
 
 - [all uniq values pluck](rails/all_uniq_values_pluck.md)
 - [avoid race conditions with uniq index](rails/avoid_race_conditions_with_uniq_index.md)
+- [delete active record](rails/delete_active_record.md)
 - [find by exceptions](rails/find_by_exceptions.md)
 - [joins](rails/joins.md)
 - [make class abstract](rails/make_class_abstract.md)
@@ -84,6 +85,7 @@ Today I Learned
 - [benchmark code](ruby/benchmark_code.md)
 - [blocks execute around](ruby/blocks_execute_around.md)
 - [blocks save to execute later](ruby/blocks_save_to_execute_later.md)
+- [inject vs each with object](ruby/inject_vs_each_with_object.md)
 - [max by over sort by last](ruby/max_by_over_sort_by_last.md)
 - [ruby2 keyword arguments with options](ruby/ruby2_keyword_arguments_with_options.md)
 
