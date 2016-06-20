@@ -13,9 +13,16 @@ To enforce the object's before_destroy and after_destroy callbacks or any :depen
 ```
 
 ## ActiveRecord::Persistance.destroy
-## #destroy will delete current object record from db and also its associated children record from db.
+### destroy will delete current object record from db and also its associated children record from db.
 ```
 Deletes the record in the database and freezes this instance to reflect that no changes should be made (since they can't be persisted).
 
 There's a series of callbacks associated with destroy. If the before_destroy callback return false the action is cancelled and destroy returns false. See ActiveRecord::Callbacks for further details.
+```
+
+## destroy_all
+### destroy a collection of records. Each object’s callbacks are executed
+http://apidock.com/rails/v4.2.1/ActiveRecord/Relation/destroy_all
+```
+Person.where(age: 0..18).destroy_all
 ```
