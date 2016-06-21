@@ -75,6 +75,7 @@ Today I Learned
 
 ### rspec
 
+- [compound expectations](rspec/compound_expectations.md)
 - [mock every instance](rspec/mock_every_instance.md)
 - [mocks](rspec/mocks.md)
 
