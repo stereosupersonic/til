@@ -45,7 +45,7 @@ spec:
 
 Create pod
 ```
-kubectl create -f bodyweight-api.yaml
+kubectl create -f bodyweight-api.yaml --context=prod
 ```
 
 you should have a running pod named *my-name*
