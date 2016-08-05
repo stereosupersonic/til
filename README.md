@@ -37,6 +37,7 @@ Today I Learned
 - [download file from pod](kubernetes/download_file_from_pod.md)
 - [pod details](kubernetes/pod_details.md)
 - [show log output](kubernetes/show_log_output.md)
+- [show pod file](kubernetes/show_pod_file.md)
 - [upload file to pod](kubernetes/upload_file_to_pod.md)
 
 ---
