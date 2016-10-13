@@ -91,6 +91,7 @@ Today I Learned
 - [blocks save to execute later](ruby/blocks_save_to_execute_later.md)
 - [inject vs each with object](ruby/inject_vs_each_with_object.md)
 - [max by over sort by last](ruby/max_by_over_sort_by_last.md)
+- [memoize pitfall](ruby/memoize_pitfall.md)
 - [ruby2 keyword arguments with options](ruby/ruby2_keyword_arguments_with_options.md)
 
 ---
