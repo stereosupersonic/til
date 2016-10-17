@@ -7,9 +7,11 @@ Today I Learned
 
 * [bash](#bash)
 * [docker](#docker)
+* [english](#english)
 * [kubernetes](#kubernetes)
 * [math](#math)
 * [postgresql](#postgresql)
+* [python](#python)
 * [rails](#rails)
 * [rspec](#rspec)
 * [ruby](#ruby)
@@ -27,6 +29,15 @@ Today I Learned
 ### docker
 
 - [deploy simple rails app on aws](docker/deploy_simple_rails_app_on_aws.md)
+
+---
+
+### english
+
+- [prashes](english/prashes.md)
+- [since for](english/since_for.md)
+- [somebody anybody](english/somebody_anybody.md)
+- [vocabulary](english/vocabulary.md)
 
 ---
 
@@ -57,6 +68,12 @@ Today I Learned
 - [reset session timeout](postgresql/reset_session_timeout.md)
 - [show database sessions](postgresql/show_database_sessions.md)
 - [transaction isolation level](postgresql/transaction_isolation_level.md)
+
+---
+
+### python
+
+- [basics](python/basics.md)
 
 ---
 
