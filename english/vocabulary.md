@@ -8,10 +8,9 @@ to consider | zu prüfen / überlegen
 to remain | bleiben
 to regret | bedauern
 revenue	 | Einnahmen
-judgement | 	Urteil
+judgement | Urteil
 to judge | beurteilen
 evolve	 | entwickeln
-hyphen	 | Bindestrich
 purposes	 | Zweck
 impede	 | behindern
 comprehensive	 | umfassend
@@ -35,4 +34,7 @@ spine | Rückrad
 screwed up | vermasselt
 annoying | lästig/ärgerlich
 shallow | seicht
-consider | this
+sensations | Empfindungen
+faint | Ohnmacht
+cure | Heilung
+exposed | ausgesetzt
