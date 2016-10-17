@@ -22,6 +22,7 @@ Today I Learned
 
 ### bash
 
+- [search inside selected files](bash/search_inside_selected_files.md)
 - [sed remove part of a string](bash/sed_remove_part_of_a_string.md)
 
 ---
