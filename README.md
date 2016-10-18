@@ -16,6 +16,7 @@ Today I Learned
 * [rspec](#rspec)
 * [ruby](#ruby)
 * [sql](#sql)
+* [training](#training)
 * [various](#various)
 
 ---
@@ -117,6 +118,12 @@ Today I Learned
 ### sql
 
 - [joins](sql/joins.md)
+
+---
+
+### training
+
+- [warmup](training/warmup.md)
 
 ---
 
