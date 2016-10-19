@@ -1,7 +1,7 @@
 # warmup
 
 ## From Greg Everett
-* heard on this Podcast https://freeletics.atlassian.net/browse/BWTRAIN-301
+* heard on this Podcast: http://wellroundedathlete.net/greg-everett-move-smart-podcast-027/
 
 
 # Template
