@@ -55,3 +55,4 @@ surges | Überspannungen
 depleting | erschöpft
 pillow | Kissen
 thwarting | Verteilung
+reward | Belohnung
