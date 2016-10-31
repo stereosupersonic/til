@@ -56,3 +56,4 @@ depleting | erschöpft
 pillow | Kissen
 thwarting | Verteilung
 reward | Belohnung
+to perceive | wahrnehmen
