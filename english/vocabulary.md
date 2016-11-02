@@ -57,3 +57,5 @@ pillow | Kissen
 thwarting | Verteilung
 reward | Belohnung
 to perceive | wahrnehmen
+cohesive | zusammenhängend
+composed | zusammengesetzt 
