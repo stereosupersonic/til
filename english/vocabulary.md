@@ -59,3 +59,5 @@ reward | Belohnung
 to perceive | wahrnehmen
 cohesive | zusammenhängend
 composed | zusammengesetzt 
+coincidence | Zufall
+
