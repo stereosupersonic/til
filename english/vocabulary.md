@@ -53,6 +53,7 @@ empower | ermächtigen
 verdict | Urteil
 surges | Überspannungen
 depleting | erschöpft
+exhausted | erschöpft
 pillow | Kissen
 thwarting | Verteilung
 reward | Belohnung
@@ -65,3 +66,8 @@ virtue | Tugend
 pursue | verfolgen
 tranquillity | Ruhe
 futile | zwecklos
+neat | ordendlich
+daunted | erschreckt
+awkward | peinlich
+embarrassed | verlegen
+urge | Drang
