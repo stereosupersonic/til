@@ -60,4 +60,8 @@ to perceive | wahrnehmen
 cohesive | zusammenhängend
 composed | zusammengesetzt 
 coincidence | Zufall
-
+for granted | selbstverständlich
+virtue | Tugend
+pursue | verfolgen
+tranquillity | Ruhe
+futile | zwecklos
