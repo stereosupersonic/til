@@ -71,3 +71,6 @@ daunted | erschreckt
 awkward | peinlich
 embarrassed | verlegen
 urge | Drang
+narrative | Erzählung
+retrain | umschulen
+tailoring | Schneiderei
