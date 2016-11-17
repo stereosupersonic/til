@@ -73,4 +73,5 @@ embarrassed | verlegen
 urge | Drang
 narrative | Erzählung
 retrain | umschulen
+retired | im Ruhestand
 tailoring | Schneiderei
