@@ -75,3 +75,9 @@ narrative | Erzählung
 retrain | umschulen
 retired | im Ruhestand
 tailoring | Schneiderei
+appreciated | geschätzt/gewürdigt 
+comprehensible | verständlich
+sacrificed | geopfert
+disappointment | Entäuschung
+perceived | Wahrgenommen
+depreciation | Abwertung
