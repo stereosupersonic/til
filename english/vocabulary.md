@@ -81,3 +81,4 @@ sacrificed | geopfert
 disappointment | Entäuschung
 perceived | Wahrgenommen
 depreciation | Abwertung
+suspicious | verdächtig
