@@ -82,3 +82,4 @@ disappointment | Entäuschung
 perceived | Wahrgenommen
 depreciation | Abwertung
 suspicious | verdächtig
+cute | niedlich
