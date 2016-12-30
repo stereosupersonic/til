@@ -83,3 +83,6 @@ perceived | Wahrgenommen
 depreciation | Abwertung
 suspicious | verdächtig
 cute | niedlich
+akin | ähnlich
+suffice | Genügen
+to forge | schmieden
