@@ -1,9 +1,14 @@
 # Naming
 
-use the domain specific language
+## use the domain specific language
 
+## some patterns
 * *_count* for a counter methode like __head_count__
 * *_list* for a substiute of pluralise name. instead of animals use __animal_list__
+
+## use a thesaurus
+
+http://www.thesaurus.com/
 
 ### sources
 
