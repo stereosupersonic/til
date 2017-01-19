@@ -59,7 +59,7 @@ thwarting | Verteilung
 reward | Belohnung
 to perceive | wahrnehmen
 cohesive | zusammenhängend
-composed | zusammengesetzt 
+composed | zusammengesetzt
 coincidence | Zufall
 for granted | selbstverständlich
 virtue | Tugend
@@ -75,7 +75,7 @@ narrative | Erzählung
 retrain | umschulen
 retired | im Ruhestand
 tailoring | Schneiderei
-appreciated | geschätzt/gewürdigt 
+appreciated | geschätzt/gewürdigt
 comprehensible | verständlich
 sacrificed | geopfert
 disappointment | Entäuschung
@@ -86,3 +86,6 @@ cute | niedlich
 akin | ähnlich
 suffice | Genügen
 to forge | schmieden
+advances | Fortschritte
+remedy | Abhilfe
+confide | vertrauen /sich verlassen

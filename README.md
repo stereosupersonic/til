@@ -11,6 +11,7 @@ Today I Learned
 * [kubernetes](#kubernetes)
 * [math](#math)
 * [postgresql](#postgresql)
+* [programming](#programming)
 * [python](#python)
 * [rails](#rails)
 * [rspec](#rspec)
@@ -70,6 +71,12 @@ Today I Learned
 - [reset session timeout](postgresql/reset_session_timeout.md)
 - [show database sessions](postgresql/show_database_sessions.md)
 - [transaction isolation level](postgresql/transaction_isolation_level.md)
+
+---
+
+### programming
+
+- [naming](programming/naming.md)
 
 ---
 
