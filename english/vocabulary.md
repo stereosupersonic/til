@@ -1,5 +1,9 @@
 English | Deutsch
 ------------ | -------------
+to admit | zugeben
+ridiculous | lächerlich
+embarrassed | verlegen
+sacrifice | opfern
 doomed | 	verurteilt
 hassle	 | Ärger
 uncertainty | Unsicherheit
