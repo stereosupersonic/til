@@ -8,7 +8,9 @@ Today I Learned
 * [bash](#bash)
 * [docker](#docker)
 * [english](#english)
+* [git](#git)
 * [kubernetes](#kubernetes)
+* [markdown](#markdown)
 * [math](#math)
 * [postgresql](#postgresql)
 * [programming](#programming)
@@ -44,6 +46,12 @@ Today I Learned
 
 ---
 
+### git
+
+- [resolve merge conflicts](git/resolve_merge_conflicts.md)
+
+---
+
 ### kubernetes
 
 - [create a new pod](kubernetes/create_a_new_pod.md)
@@ -53,6 +61,12 @@ Today I Learned
 - [show log output](kubernetes/show_log_output.md)
 - [show pod file](kubernetes/show_pod_file.md)
 - [upload file to pod](kubernetes/upload_file_to_pod.md)
+
+---
+
+### markdown
+
+- [basics](markdown/basics.md)
 
 ---
 
