@@ -113,6 +113,7 @@ Today I Learned
 - [retry n times](rails/retry_n_times.md)
 - [tokens with message verifier](rails/tokens_with_message_verifier.md)
 - [use rails root join](rails/use_rails_root_join.md)
+- [useful view helpers](rails/useful_view_helpers.md)
 
 ---
 
