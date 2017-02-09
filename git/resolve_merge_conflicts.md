@@ -14,7 +14,7 @@ git merge master
 # resolve conflicts example structure.sql
 git checkout origin/master db/structure.sql
 bin/rake db:reset
-bin rake db:migrate
+bin/rake db:migrate
 
 git add .
 
