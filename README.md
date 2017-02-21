@@ -81,6 +81,7 @@ Today I Learned
 
 - [backup and restore](postgresql/backup_and_restore.md)
 - [check postgres version](postgresql/check_postgres_version.md)
+- [index info](postgresql/index_info.md)
 - [kill all active connenctions](postgresql/kill_all_active_connenctions.md)
 - [reset session timeout](postgresql/reset_session_timeout.md)
 - [show database sessions](postgresql/show_database_sessions.md)
