@@ -103,6 +103,7 @@ Today I Learned
 ### rails
 
 - [all uniq values pluck](rails/all_uniq_values_pluck.md)
+- [ar find field in](rails/ar_find_field_in.md)
 - [avoid race conditions with uniq index](rails/avoid_race_conditions_with_uniq_index.md)
 - [delete active record](rails/delete_active_record.md)
 - [find by exceptions](rails/find_by_exceptions.md)
