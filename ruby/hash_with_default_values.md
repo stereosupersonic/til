@@ -19,9 +19,7 @@ text.split.map(&:downcase).each do |word|
 end
 
 # after
-word_count = Hash.new do |hash, missing_key|
-  hash[missing_key] = 0
-end
+word_count = Hash.new { |h,k| h[k] = 0 }
 
 text.split.map(&:downcase).each do |word|
   word_count[word] += 1
