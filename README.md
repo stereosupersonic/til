@@ -132,6 +132,7 @@ Today I Learned
 - [benchmark code](ruby/benchmark_code.md)
 - [blocks execute around](ruby/blocks_execute_around.md)
 - [blocks save to execute later](ruby/blocks_save_to_execute_later.md)
+- [hash with default values](ruby/hash_with_default_values.md)
 - [inject vs each with object](ruby/inject_vs_each_with_object.md)
 - [max by over sort by last](ruby/max_by_over_sort_by_last.md)
 - [memoize pitfall](ruby/memoize_pitfall.md)
