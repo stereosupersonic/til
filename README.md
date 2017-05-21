@@ -19,6 +19,7 @@ Today I Learned
 * [rspec](#rspec)
 * [ruby](#ruby)
 * [sql](#sql)
+* [testing](#testing)
 * [training](#training)
 * [various](#various)
 
@@ -143,6 +144,12 @@ Today I Learned
 ### sql
 
 - [joins](sql/joins.md)
+
+---
+
+### testing
+
+- [gold master testing](testing/gold_master_testing.md)
 
 ---
 
