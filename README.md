@@ -50,6 +50,7 @@ Today I Learned
 
 ### git
 
+- [fixup and autosquash](git/fixup_and_autosquash.md)
 - [resolve merge conflicts](git/resolve_merge_conflicts.md)
 
 ---
