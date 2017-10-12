@@ -9,3 +9,5 @@ show-source my_object -l
 # Visibility: public
 # Number of lines: 3
 ```
+
+[Source navigation](https://github.com/pry/pry/wiki/State-navigation)
