@@ -14,6 +14,7 @@ Today I Learned
 * [math](#math)
 * [postgresql](#postgresql)
 * [programming](#programming)
+* [pry](#pry)
 * [python](#python)
 * [rails](#rails)
 * [rspec](#rspec)
@@ -93,6 +94,12 @@ Today I Learned
 ### programming
 
 - [naming](programming/naming.md)
+
+---
+
+### pry
+
+- [show source](pry/show_source.md)
 
 ---
 
