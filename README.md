@@ -21,6 +21,7 @@ Today I Learned
 * [ruby](#ruby)
 * [sql](#sql)
 * [testing](#testing)
+* [tmux](#tmux)
 * [training](#training)
 * [various](#various)
 
@@ -158,6 +159,12 @@ Today I Learned
 ### testing
 
 - [gold master testing](testing/gold_master_testing.md)
+
+---
+
+### tmux
+
+- [basics](tmux/basics.md)
 
 ---
 
