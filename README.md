@@ -108,6 +108,7 @@ Today I Learned
 
 ### pry
 
+- [basics](pry/basics.md)
 - [show source](pry/show_source.md)
 
 ---
