@@ -25,6 +25,7 @@ Today I Learned
 * [tmux](#tmux)
 * [training](#training)
 * [various](#various)
+* [vim](#vim)
 
 ---
 
@@ -185,3 +186,9 @@ Today I Learned
 ### various
 
 - [emails](various/emails.md)
+
+---
+
+### vim
+
+- [splits](vim/splits.md)
