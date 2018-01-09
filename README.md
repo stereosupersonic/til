@@ -131,6 +131,7 @@ Today I Learned
 - [make class abstract](rails/make_class_abstract.md)
 - [migration change column default](rails/migration_change_column_default.md)
 - [migration index postgresql](rails/migration_index_postgresql.md)
+- [parse date string in timezone](rails/parse_date_string_in_timezone.md)
 - [retry n times](rails/retry_n_times.md)
 - [tokens with message verifier](rails/tokens_with_message_verifier.md)
 - [use rails root join](rails/use_rails_root_join.md)
