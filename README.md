@@ -133,6 +133,7 @@ Today I Learned
 - [migration index postgresql](rails/migration_index_postgresql.md)
 - [parse date string in timezone](rails/parse_date_string_in_timezone.md)
 - [retry n times](rails/retry_n_times.md)
+- [search filtering pattern](rails/search_filtering_pattern.md)
 - [tokens with message verifier](rails/tokens_with_message_verifier.md)
 - [use rails root join](rails/use_rails_root_join.md)
 - [useful view helpers](rails/useful_view_helpers.md)
