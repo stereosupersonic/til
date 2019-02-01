@@ -142,6 +142,7 @@ Today I Learned
 
 - [mock every instance](rspec/mock_every_instance.md)
 - [mocks](rspec/mocks.md)
+- [travel to](rspec/travel_to.md)
 - [compound expectations](rspec/compound_expectations.md)
 
 ---
