@@ -192,6 +192,7 @@ Today I Learned
 - [useful view helpers](rails/useful_view_helpers.md)
 - [migration index postgresql](rails/migration_index_postgresql.md)
 - [parse date string in timezone](rails/parse_date_string_in_timezone.md)
+- [convert to boolean](rails/convert_to_boolean.md)
 - [delete active record](rails/delete_active_record.md)
 - [joins](rails/joins.md)
 - [all uniq values pluck](rails/all_uniq_values_pluck.md)
