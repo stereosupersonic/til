@@ -153,6 +153,7 @@ Today I Learned
 - [download file from pod](kubernetes/download_file_from_pod.md)
 - [show pod file](kubernetes/show_pod_file.md)
 - [pod details](kubernetes/pod_details.md)
+- [logs crashed pod](kubernetes/logs_crashed_pod.md)
 - [delete all pods](kubernetes/delete_all_pods.md)
 - [create a new pod](kubernetes/create_a_new_pod.md)
 - [upload file to pod](kubernetes/upload_file_to_pod.md)
