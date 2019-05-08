@@ -129,6 +129,7 @@ Today I Learned
 ### mysql
 
 - [remove whitespaces](mysql/remove_whitespaces.md)
+- [fix replica](mysql/fix_replica.md)
 
 ---
 
@@ -169,6 +170,7 @@ Today I Learned
 - [ruby2 keyword arguments with options](ruby/ruby2_keyword_arguments_with_options.md)
 - [blocks execute around](ruby/blocks_execute_around.md)
 - [max by over sort by last](ruby/max_by_over_sort_by_last.md)
+- [gem versioning](ruby/gem_versioning.md)
 - [blocks save to execute later](ruby/blocks_save_to_execute_later.md)
 
 ---
