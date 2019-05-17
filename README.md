@@ -128,6 +128,7 @@ Today I Learned
 
 ### mysql
 
+- [user privileges](mysql/user_privileges.md)
 - [remove whitespaces](mysql/remove_whitespaces.md)
 - [fix replica](mysql/fix_replica.md)
 
