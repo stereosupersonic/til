@@ -200,6 +200,7 @@ Today I Learned
 - [delete active record](rails/delete_active_record.md)
 - [joins](rails/joins.md)
 - [all uniq values pluck](rails/all_uniq_values_pluck.md)
+- [serialize to poro](rails/serialize_to_poro.md)
 - [find by exceptions](rails/find_by_exceptions.md)
 
 ---
