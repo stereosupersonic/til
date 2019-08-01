@@ -188,6 +188,7 @@ Today I Learned
 - [avoid race conditions with uniq index](rails/avoid_race_conditions_with_uniq_index.md)
 - [migration change column default](rails/migration_change_column_default.md)
 - [search filtering pattern](rails/search_filtering_pattern.md)
+- [restrict route access](rails/restrict_route_access.md)
 - [tokens with message verifier](rails/tokens_with_message_verifier.md)
 - [use rails root join](rails/use_rails_root_join.md)
 - [ar find field in](rails/ar_find_field_in.md)
