@@ -91,3 +91,7 @@ rails generate controller welcome index
 # config/routes.rb
 root to: "welcome#index"
 ```
+
+## Dockerize
+
+### TODO
