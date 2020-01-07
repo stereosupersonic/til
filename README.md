@@ -196,6 +196,7 @@ Today I Learned
 - [ar find field in](rails/ar_find_field_in.md)
 - [make class abstract](rails/make_class_abstract.md)
 - [retry n times](rails/retry_n_times.md)
+- [create new app](rails/create_new_app.md)
 - [useful view helpers](rails/useful_view_helpers.md)
 - [migration index postgresql](rails/migration_index_postgresql.md)
 - [parse date string in timezone](rails/parse_date_string_in_timezone.md)
