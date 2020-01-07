@@ -50,7 +50,9 @@ Today I Learned
 
 ### docker
 
+- [basics](docker/basics.md)
 - [deploy simple rails app on aws](docker/deploy_simple_rails_app_on_aws.md)
+- [run postgresql with docker](docker/run_postgresql_with_docker.md)
 
 ---
 
