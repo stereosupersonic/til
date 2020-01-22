@@ -14,8 +14,11 @@ docker build -t myimage:1.0 .
 docker run -it --name myimage debian:buster /bin/bash
 ```
 
--d = daemon mode
 
+### run as a daemon 
+
+-d = daemon mode
+--restart=always 
 
 ### more complex example
 
