@@ -5,79 +5,29 @@ Today I Learned
 
 ### Categories
 
-* [vim](#vim)
-* [postgresql](#postgresql)
-* [docker](#docker)
-* [python](#python)
-* [markdown](#markdown)
-* [training](#training)
-* [math](#math)
 * [bash](#bash)
-* [various](#various)
-* [testing](#testing)
-* [mac](#mac)
+* [docker](#docker)
 * [english](#english)
+* [git](#git)
+* [kubernetes](#kubernetes)
+* [linux](#linux)
+* [mac](#mac)
+* [markdown](#markdown)
+* [math](#math)
+* [mysql](#mysql)
+* [postgresql](#postgresql)
 * [programming](#programming)
 * [pry](#pry)
-* [mysql](#mysql)
-* [tmux](#tmux)
-* [rspec](#rspec)
-* [kubernetes](#kubernetes)
-* [ruby](#ruby)
-* [git](#git)
+* [python](#python)
 * [rails](#rails)
+* [rspec](#rspec)
+* [ruby](#ruby)
 * [sql](#sql)
-
----
-
-### vim
-
-- [splits](vim/splits.md)
-
----
-
-### postgresql
-
-- [index info](postgresql/index_info.md)
-- [kill all active connenctions](postgresql/kill_all_active_connenctions.md)
-- [reset session timeout](postgresql/reset_session_timeout.md)
-- [check postgres version](postgresql/check_postgres_version.md)
-- [show database sessions](postgresql/show_database_sessions.md)
-- [transaction isolation level](postgresql/transaction_isolation_level.md)
-- [backup and restore](postgresql/backup_and_restore.md)
-
----
-
-### docker
-
-- [basics](docker/basics.md)
-- [deploy simple rails app on aws](docker/deploy_simple_rails_app_on_aws.md)
-- [run postgresql with docker](docker/run_postgresql_with_docker.md)
-
----
-
-### python
-
-- [basics](python/basics.md)
-
----
-
-### markdown
-
-- [basics](markdown/basics.md)
-
----
-
-### training
-
-- [warmup](training/warmup.md)
-
----
-
-### math
-
-- [gaußsche summenformel](math/gaußsche_summenformel.md)
-- [fibonacci](math/fibonacci.md)
+* [testing](#testing)
+* [tmux](#tmux)
+* [training](#training)
+* [various](#various)
+* [vim](#vim)
 
 ---
 
@@ -88,21 +38,11 @@ Today I Learned
 
 ---
 
-### various
+### docker
 
-- [emails](various/emails.md)
-
----
-
-### testing
-
-- [gold master testing](testing/gold_master_testing.md)
-
----
-
-### mac
-
-- [keys](mac/keys.md)
+- [basics](docker/basics.md)
+- [deploy simple rails app on aws](docker/deploy_simple_rails_app_on_aws.md)
+- [run postgresql with docker](docker/run_postgresql_with_docker.md)
 
 ---
 
@@ -115,39 +55,10 @@ Today I Learned
 
 ---
 
-### programming
+### git
 
-- [naming](programming/naming.md)
-
----
-
-### pry
-
-- [basics](pry/basics.md)
-- [show source](pry/show_source.md)
-
----
-
-### mysql
-
-- [user privileges](mysql/user_privileges.md)
-- [remove whitespaces](mysql/remove_whitespaces.md)
-- [fix replica](mysql/fix_replica.md)
-
----
-
-### tmux
-
-- [basics](tmux/basics.md)
-
----
-
-### rspec
-
-- [mock every instance](rspec/mock_every_instance.md)
-- [mocks](rspec/mocks.md)
-- [travel to](rspec/travel_to.md)
-- [compound expectations](rspec/compound_expectations.md)
+- [fixup and autosquash](git/fixup_and_autosquash.md)
+- [resolve merge conflicts](git/resolve_merge_conflicts.md)
 
 ---
 
@@ -164,24 +75,67 @@ Today I Learned
 
 ---
 
-### ruby
+### linux
 
-- [hash with default values](ruby/hash_with_default_values.md)
-- [benchmark code](ruby/benchmark_code.md)
-- [inject vs each with object](ruby/inject_vs_each_with_object.md)
-- [memoize pitfall](ruby/memoize_pitfall.md)
-- [ruby2 keyword arguments with options](ruby/ruby2_keyword_arguments_with_options.md)
-- [blocks execute around](ruby/blocks_execute_around.md)
-- [max by over sort by last](ruby/max_by_over_sort_by_last.md)
-- [gem versioning](ruby/gem_versioning.md)
-- [blocks save to execute later](ruby/blocks_save_to_execute_later.md)
+- [add usb drive](linux/add_usb_drive.md)
 
 ---
 
-### git
+### mac
 
-- [fixup and autosquash](git/fixup_and_autosquash.md)
-- [resolve merge conflicts](git/resolve_merge_conflicts.md)
+- [keys](mac/keys.md)
+
+---
+
+### markdown
+
+- [basics](markdown/basics.md)
+
+---
+
+### math
+
+- [gaußsche summenformel](math/gaußsche_summenformel.md)
+- [fibonacci](math/fibonacci.md)
+
+---
+
+### mysql
+
+- [user privileges](mysql/user_privileges.md)
+- [remove whitespaces](mysql/remove_whitespaces.md)
+- [fix replica](mysql/fix_replica.md)
+
+---
+
+### postgresql
+
+- [index info](postgresql/index_info.md)
+- [kill all active connenctions](postgresql/kill_all_active_connenctions.md)
+- [reset session timeout](postgresql/reset_session_timeout.md)
+- [check postgres version](postgresql/check_postgres_version.md)
+- [show database sessions](postgresql/show_database_sessions.md)
+- [transaction isolation level](postgresql/transaction_isolation_level.md)
+- [backup and restore](postgresql/backup_and_restore.md)
+
+---
+
+### programming
+
+- [naming](programming/naming.md)
+
+---
+
+### pry
+
+- [basics](pry/basics.md)
+- [show source](pry/show_source.md)
+
+---
+
+### python
+
+- [basics](python/basics.md)
 
 ---
 
@@ -209,6 +163,59 @@ Today I Learned
 
 ---
 
+### rspec
+
+- [mock every instance](rspec/mock_every_instance.md)
+- [mocks](rspec/mocks.md)
+- [travel to](rspec/travel_to.md)
+- [compound expectations](rspec/compound_expectations.md)
+
+---
+
+### ruby
+
+- [hash with default values](ruby/hash_with_default_values.md)
+- [benchmark code](ruby/benchmark_code.md)
+- [inject vs each with object](ruby/inject_vs_each_with_object.md)
+- [memoize pitfall](ruby/memoize_pitfall.md)
+- [ruby2 keyword arguments with options](ruby/ruby2_keyword_arguments_with_options.md)
+- [blocks execute around](ruby/blocks_execute_around.md)
+- [max by over sort by last](ruby/max_by_over_sort_by_last.md)
+- [gem versioning](ruby/gem_versioning.md)
+- [blocks save to execute later](ruby/blocks_save_to_execute_later.md)
+
+---
+
 ### sql
 
 - [joins](sql/joins.md)
+
+---
+
+### testing
+
+- [gold master testing](testing/gold_master_testing.md)
+
+---
+
+### tmux
+
+- [basics](tmux/basics.md)
+
+---
+
+### training
+
+- [warmup](training/warmup.md)
+
+---
+
+### various
+
+- [emails](various/emails.md)
+
+---
+
+### vim
+
+- [splits](vim/splits.md)

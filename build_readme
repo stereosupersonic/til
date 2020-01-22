@@ -5,7 +5,7 @@ require "pathname"
 root =  File.dirname(File.expand_path(__FILE__))
 root_path = Pathname.new(root)
 tils = {}.tap do |result|
-  Dir["#{root}/*/"].each do |dir|
+  Dir["#{root}/*/"].sort.each do |dir|
     dir_name = Pathname.new(dir).relative_path_from(root_path).to_s
     result[dir_name] = Dir["#{dir}*.md"].map do |f|
       OpenStruct.new(label: File.basename(f).gsub(".md", "").tr("_", " "),
