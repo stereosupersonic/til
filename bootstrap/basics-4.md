@@ -15,14 +15,14 @@ cheatsheet https://hackerthemes.com/bootstrap-cheatsheet
 
 ```
 <body>
-	<div class="container bg-primary">
-		<div class="row">
-			<div class="col">
-				<h2>.container</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A accusantium aspernatur autem beatae blanditiis cumque dolorum ducimus facilis impedit in laborum magni nihil perferendis quam, quia rem sint suscipit veniam.</p>
-			</div>
-		</div>
-	</div>
+  <div class="container bg-primary">
+    <div class="row">
+      <div class="col">
+        <h2>.container</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A accusantium aspernatur autem beatae blanditiis cumque dolorum ducimus facilis impedit in laborum magni nihil perferendis quam, quia rem sint suscipit veniam.</p>
+      </div>
+    </div>
+  </div>
 </body>
 ```
 
@@ -30,13 +30,13 @@ cheatsheet https://hackerthemes.com/bootstrap-cheatsheet
 
 ```
 <body>
-	<div class="container-fluid bg-info">
-		<div class="row">
-			<div class="col">
-				<h2>.container-fluid</h2>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A accusantium aspernatur autem beatae blanditiis cumque dolorum ducimus facilis impedit in laborum magni nihil perferendis quam, quia rem sint suscipit veniam.</p>
-			</div>
-		</div>
-	</div>
+  <div class="container-fluid bg-info">
+    <div class="row">
+      <div class="col">
+        <h2>.container-fluid</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A accusantium aspernatur autem beatae blanditiis cumque dolorum ducimus facilis impedit in laborum magni nihil perferendis quam, quia rem sint suscipit veniam.</p>
+      </div>
+    </div>
+  </div>
 </body>
 ```
