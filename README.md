@@ -6,6 +6,7 @@ Today I Learned
 ### Categories
 
 * [bash](#bash)
+* [bootstrap](#bootstrap)
 * [docker](#docker)
 * [english](#english)
 * [git](#git)
@@ -35,6 +36,12 @@ Today I Learned
 
 - [sed remove part of a string](bash/sed_remove_part_of_a_string.md)
 - [search inside selected files](bash/search_inside_selected_files.md)
+
+---
+
+### bootstrap
+
+- [basics-4](bootstrap/basics-4.md)
 
 ---
 
