@@ -7,6 +7,7 @@ Today I Learned
 
 * [bash](#bash)
 * [bootstrap](#bootstrap)
+* [capybara](#capybara)
 * [docker](#docker)
 * [english](#english)
 * [git](#git)
@@ -42,6 +43,12 @@ Today I Learned
 ### bootstrap
 
 - [basics-4](bootstrap/basics-4.md)
+
+---
+
+### capybara
+
+- [basics](capybara/basics.md)
 
 ---
 
