@@ -8,6 +8,7 @@ Today I Learned
 * [bash](#bash)
 * [bootstrap](#bootstrap)
 * [capybara](#capybara)
+* [chrome-devtools](#chrome-devtools)
 * [docker](#docker)
 * [english](#english)
 * [git](#git)
@@ -49,6 +50,12 @@ Today I Learned
 ### capybara
 
 - [basics](capybara/basics.md)
+
+---
+
+### chrome-devtools
+
+- [javascript debugging](chrome-devtools/javascript_debugging.md)
 
 ---
 
