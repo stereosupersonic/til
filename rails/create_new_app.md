@@ -2,7 +2,7 @@
 
 ### postgresql
 ```
-  rails new homie -T -d postgresql
+  rails new homie -T -d postgresql --skip-action-text --skip-active-storage --skip-action-cable --skip-test-unit 
 ```
 
 ### rspec
