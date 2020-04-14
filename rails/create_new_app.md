@@ -35,6 +35,14 @@ rails db:migrate
 
 ## libaries 
 
+### add pry
+
+```
+# group :development, :test do
+gem "pry-rails"
+gem "pry-nav"
+```
+
 ### add haml
 
 ```
