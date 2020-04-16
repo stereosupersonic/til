@@ -195,6 +195,27 @@ root to: "welcome#index"
 %p= ActiveRecord::Base.connection.execute("SELECT version();").first["version"]
 ```
 
+### setup rubocop
+
+```
+  # group :development, :test do
+  gem "rubocop", "~> 0.80.0"
+  gem "rubocop-performance", require: false
+  gem "rubocop-rails", require: false
+```
+
+#### copy the rails default
+
+```
+curl -o https://github.com/rails/rails/blob/master/.rubocop.yml
+``` 
+
+#### run autocorrection
+```
+bundle exec rubocop -a
+``` 
+
+
 ## development
 
 ### bin/server
