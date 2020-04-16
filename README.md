@@ -173,6 +173,7 @@ Today I Learned
 - [retry n times](rails/retry_n_times.md)
 - [create new app](rails/create_new_app.md)
 - [useful view helpers](rails/useful_view_helpers.md)
+- [dockerize rails app](rails/dockerize_rails_app.md)
 - [migration index postgresql](rails/migration_index_postgresql.md)
 - [parse date string in timezone](rails/parse_date_string_in_timezone.md)
 - [convert to boolean](rails/convert_to_boolean.md)

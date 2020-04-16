@@ -16,6 +16,11 @@ git remote add origin git@github.com:stereosupersonic/<APPNAME>.git
 git push origin master
 ```
 
+### config/application.rb
+
+```
+  config.time_zone = "Berlin"
+```
 
 ### setup database
 
@@ -69,6 +74,17 @@ gem "haml-rails", "~> 2.0"
 # convert existing layout
 HAML_RAILS_DELETE_ERB=true rails haml:erb2haml
 ```
+
+### setup webpacker
+
+```
+gem 'webpacker', '~> 5.x'
+
+yarn add core-js regenerator-runtime
+
+bundle exec rails webpacker:install
+```
+
 
 ### add bootstrap
 
@@ -179,106 +195,6 @@ root to: "welcome#index"
 %p= ActiveRecord::Base.connection.execute("SELECT version();").first["version"]
 ```
 
-
-## Dockerize
-
-### Dockerfile
-
-```
-FROM ruby:2.6.3
-LABEL maintainer="michael@deimel.de"
-
-RUN apt-get update -yqq && apt-get install -yqq --no-install-recommends \
-  apt-transport-https
-
-RUN curl -sL https://deb.nodesource.com/setup_8.x | bash -
-
-RUN curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | apt-key add -  
-RUN echo "deb https://dl.yarnpkg.com/debian/ stable main" | \
-  tee /etc/apt/sources.list.d/yarn.list 
-
-RUN apt-get update -yqq && apt-get install -yqq --no-install-recommends \
-  nodejs \
-  yarn
-
-RUN gem update --system && \
-    gem install bundler
-
-RUN mkdir -p /app
-WORKDIR /app
-
-# caching bundler: This creates a separate, independent layer. Docker’s cache for this layer will only be busted if either of these two files change.
-COPY Gemfile* /app/
-# $(nproc) runs bundler in parallel with the amount of CPUs processes 
-RUN bundle config set without development test && bundle install -j $(nproc)
-# caching yarn
-COPY package.json yarn.lock /app/
-RUN yarn install
-
-COPY . /app
-
-ENV RAILS_ENV production
-ENV NODE_ENV production
-ENV RAILS_SERVE_STATIC_FILES true
-
-RUN mkdir -p tmp/pids 
-
-ENV SECRET_KEY_BASE=XXXX # TODO rake secret
-
-RUN RAILS_ENV=production bin/rake assets:precompile
-
-EXPOSE 3000
-
-ENTRYPOINT /app/entrypoint.sh
-```
-
-### entrypoint.sh
-```
-#!/bin/bash
-
-# Start the run once job.
-echo "Docker container has been started"
-
-declare -p | grep -Ev 'BASHOPTS|BASH_VERSINFO|EUID|PPID|SHELLOPTS|UID' > /container.env
-
-echo "run migrations"
-bundle exec rails db:migrate
-
-echo "start rails server"
-rm -f /app/tmp/pids/server.pid 
-bundle exec rails server -b 0.0.0.0 -p 3000
-```
-
-### docker-compose.yml
-
-```
-version: '3'
-
-services:
-  database:
-    image: postgres:12.1
-    ports:
-      - "5433:5432"
-    environment:
-      POSTGRES_USER: postgres
-      POSTGRES_PASSWORD: postgresdb
-      POSTGRES_DB: <APPNAME>_development
-
-  web:
-    build: .
-    ports:
-      - "3000:3000"
-    volumes:
-      - .:/app
-    environment:
-      DATABASE_HOST: database
-      DATABASE_USERNAME: postgres
-      DATABASE_PASSWORD: postgresdb
-      DATABASE_NAME: <APPNAME>_development
-      RAILS_LOG_TO_STDOUT: "true" 
-      RAILS_SERVE_STATIC_FILES: "true"
-```
-
 ## development
 
 ### bin/server
@@ -313,18 +229,7 @@ chmod +x  bin/server
 
 ```
 
-### docker-compose
 
-```
- docker-compose build
-```
-
-```
-  docker-compose up
-  // or with recreare
-  docker-compose up --build --force-recreate
-
-```
 ~~~~
 
 ## Testing
