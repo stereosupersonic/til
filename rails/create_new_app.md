@@ -215,6 +215,12 @@ curl -o https://github.com/rails/rails/blob/master/.rubocop.yml
 bundle exec rubocop -a
 ``` 
 
+or add ignore everything for now
+
+```
+bundle exec rubocop --auto-gen-config
+```
+
 
 ## development
 
