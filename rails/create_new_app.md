@@ -260,10 +260,10 @@ chmod +x  bin/server
 ```
 ~~~~
 
-## [setup testing](rails/rails/rspec_and_capybara_setup.md)
+## [setup testing](spec_and_capybara_setup.md)
 
 ## Addional Setup
 
 ### error tracker like https://rollbar.com/
 
-### [rubocop](rails/rubocop_setup.md)
+### [setup rubocop](rubocop_setup.md)
