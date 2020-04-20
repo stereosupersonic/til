@@ -163,6 +163,7 @@ Today I Learned
 ### rails
 
 - [avoid race conditions with uniq index](rails/avoid_race_conditions_with_uniq_index.md)
+- [rspec and capybara setup](rails/rspec_and_capybara_setup.md)
 - [migration change column default](rails/migration_change_column_default.md)
 - [search filtering pattern](rails/search_filtering_pattern.md)
 - [restrict route access](rails/restrict_route_access.md)
@@ -175,6 +176,7 @@ Today I Learned
 - [useful view helpers](rails/useful_view_helpers.md)
 - [dockerize rails app](rails/dockerize_rails_app.md)
 - [migration index postgresql](rails/migration_index_postgresql.md)
+- [rubocop setup](rails/rubocop_setup.md)
 - [parse date string in timezone](rails/parse_date_string_in_timezone.md)
 - [convert to boolean](rails/convert_to_boolean.md)
 - [delete active record](rails/delete_active_record.md)

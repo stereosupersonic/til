@@ -1,8 +1,12 @@
 # Create a new rails 6 app with webpacker and some usefule defaults (2020)
 
+
 ### with postgresql and removed stuff
 ```
-  rails new <APPNAME> -T -d postgresql --skip-sprockets --skip-action-mailer --skip-action-mailbox --skip-action-text --skip-active-storage --skip-action-cable --skip-test-unit 
+  rails new <APPNAME> -T -d postgresql \
+  --skip-sprockets --skip-action-mailer --skip-action-mailbox \
+  --skip-action-text --skip-active-storage --skip-action-cable \
+  --skip-test-unit 
 ```
 
 
@@ -29,9 +33,8 @@ git push origin master
          :view_specs      => false,
          :helper_specs    => false,
          :routing_specs   => false,
-         :controller_specs => true,
+         :controller_specs => false,
          :request_specs    => false
-       g.fixture_replacement :factory_girl, :dir => "spec/factories"
     end
 ```
 
@@ -99,7 +102,7 @@ bundle exec rails webpacker:install
 ```
 
 
-### add bootstrap
+### add twitter bootstrap
 
 ```
 yarn add bootstrap
@@ -185,6 +188,11 @@ import "@fortawesome/fontawesome-free/css/all.css";
           = yield
 ```
 
+### add some helpers
+```
+curl -L https://gist.githubusercontent.com/stereosupersonic/c4e6a7e55fece204fb38767c320a1abf/raw/a1f82ec1026852f24d5fa82bb399cd7b6d5bce79/application_helper.rb > app/helpers/application_helper.rb
+```
+
 ### add welcome controller
 
 ```
@@ -216,33 +224,6 @@ gem "annotate"
 
 rails g annotate:install
 ```
-
-### setup rubocop
-
-```
-  # group :development, :test do
-  gem "rubocop", "~> 0.80.0"
-  gem "rubocop-performance", require: false
-  gem "rubocop-rails", require: false
-```
-
-#### copy the rails default
-
-```
-curl -o https://github.com/rails/rails/blob/master/.rubocop.yml
-``` 
-
-#### run autocorrection
-```
-bundle exec rubocop -a
-``` 
-
-or add ignore everything for now
-
-```
-bundle exec rubocop --auto-gen-config
-```
-
 
 ## development
 
@@ -279,82 +260,10 @@ chmod +x  bin/server
 ```
 ~~~~
 
-## Testing
+## [setup testing](rails/rails/rspec_and_capybara_setup.md)
 
-### rspec
+## Addional Setup
 
-```
-#in Gemfile group :development, :test add 
-gem "rspec-rails"
-#in command line
-bundle install
-rails generate rspec:install
-```
+### error tracker like https://rollbar.com/
 
-### factory 
-
-https://github.com/thoughtbot/factory_bot_rails
-```
-#in Gemfile group :development, :test add 
- gem "factory_bot_rails"
-```
-
-### capybara 
-https://github.com/teamcapybara/capybara
-
-```
-#in Gemfile group :test add 
-  gem "capybara"
-  gem "launchy" # for capybara save_and_open_page
-  gem "selenium-webdriver"
-  gem "webdrivers"
-```
-
-### new file spec/capybara_helper.rb
-
-```
-touch spec/capybara_helper.rb
-```
-
-```
-# frozen_string_literal: true
-
-require "rails_helper"
-require "capybara/rspec"
-
-RSpec.configure do |config|
-  config.include Capybara::RSpecMatchers
-
-  Capybara.default_max_wait_time = 10
-  Capybara.default_normalize_ws = true # match DOM Elements with text spanning over multiple line
-
-  if ENV["USE_SELENIUM"].present?
-    Capybara.register_driver :selenium do |app|
-      Capybara::Selenium::Driver.new(app, browser: (ENV["SELENIUM_BROWSER"].presence || :chrome).to_sym)
-    end
-
-    Capybara.register_driver :headless_chrome do |app|
-      capabilities = Selenium::WebDriver::Remote::Capabilities.chrome(
-        chromeOptions: { args: %w[no-sandbox headless disable-gpu window-size=1366,1768] }
-      )
-      Capybara::Selenium::Driver.new(app,
-                                     browser:              (ENV["SELENIUM_BROWSER"].presence || :chrome).to_sym,
-                                     desired_capabilities: capabilities)
-    end
-
-    Capybara.javascript_driver = :selenium
-  else
-    config.before(:each, type: :system) do
-      driven_by :rack_test
-    end
-
-    config.before(:each, type: :system, js: true) do
-      driven_by :selenium_chrome_headless
-    end
-  end
-end
-
-```
-
-
-### TODO
+### [rubocop](rails/rubocop_setup.md)
