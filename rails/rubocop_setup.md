@@ -54,13 +54,14 @@ AllCops:
 
 ```
 
-## copy all other templates 
+## copy all other setting 
 
+```
 curl -O https://gist.githubusercontent.com/stereosupersonic/7ca195f10ef8ac4655aa6b7aa2040637/raw/b5a0b74ac2f5e0023219b82e3d17ad6104df2b2f/.rubocop_strict.yml
 curl -O https://gist.githubusercontent.com/stereosupersonic/a79470b9a599d9a67758d170deafe340/raw/64087838ec46e5acad09fd8a2189829c518412d5/.rubocop_rails.yml
 curl -O https://gist.githubusercontent.com/stereosupersonic/608bc8142bd502e5fbbec6a5b20b34a5/raw/5cfba4b3dd2ddb2036a6769771cfabc979ce1c22/.rubocop_rspec.yml
 
-
+```
 #### run autocorrection
 
 ```
