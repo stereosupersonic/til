@@ -136,6 +136,7 @@ Today I Learned
 - [index info](postgresql/index_info.md)
 - [kill all active connenctions](postgresql/kill_all_active_connenctions.md)
 - [reset session timeout](postgresql/reset_session_timeout.md)
+- [run postgresql with docker](postgresql/run_postgresql_with_docker.md)
 - [show database sessions](postgresql/show_database_sessions.md)
 - [transaction isolation level](postgresql/transaction_isolation_level.md)
 
