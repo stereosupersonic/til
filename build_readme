@@ -7,7 +7,7 @@ root_path = Pathname.new(root)
 tils = {}.tap do |result|
   Dir["#{root}/*/"].sort.each do |dir|
     dir_name = Pathname.new(dir).relative_path_from(root_path).to_s
-    result[dir_name] = Dir["#{dir}*.md"].map do |f|
+    result[dir_name] = Dir["#{dir}*.md"].sort.map do |f|
       OpenStruct.new(label: File.basename(f).gsub(".md", "").tr("_", " "),
                      link: File.join(dir_name, File.basename(f)))
     end
