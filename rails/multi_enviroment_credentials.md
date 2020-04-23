@@ -34,3 +34,10 @@ ATTENTION put this to .gitignore ```/config/credentials/*```
 ## use in production
 
 you have to start your app with the RAILS_MASTER_KEY from your config/credentials/production.key
+
+addjust you dockerfile
+
+```
+ARG RAILS_MASTER_KEY
+RUN RAILS_MASTER_KEY=${RAILS_MASTER_KEY} RAILS_ENV=production bin/rake assets:precompile --trace
+```

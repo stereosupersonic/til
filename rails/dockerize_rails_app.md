@@ -153,3 +153,6 @@ services:
 
 ```
 ~~~~
+
+
+### (run in production with traefik)[rails/traefik.md]
