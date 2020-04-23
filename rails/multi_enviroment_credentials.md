@@ -26,7 +26,7 @@ in the appliction
 
 create a production setting  
 ```
-EDITOR=vim rails credentials:edit --environment production
+EDITOR=vim bin/rails credentials:edit --environment production
 ```
 
 ATTENTION put this to .gitignore ```/config/credentials/*```
