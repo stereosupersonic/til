@@ -28,6 +28,7 @@ Today I Learned
 * [sql](#sql)
 * [testing](#testing)
 * [tmux](#tmux)
+* [traefik](#traefik)
 * [training](#training)
 * [various](#various)
 * [vim](#vim)
@@ -228,6 +229,12 @@ Today I Learned
 ### tmux
 
 - [basics](tmux/basics.md)
+
+---
+
+### traefik
+
+- [setup](traefik/setup.md)
 
 ---
 
