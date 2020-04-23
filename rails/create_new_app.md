@@ -20,6 +20,11 @@ git remote add origin git@github.com:stereosupersonic/<APPNAME>.git
 git push origin master
 ```
 
+add gitignore 
+```
+curl -L https://gist.githubusercontent.com/stereosupersonic/77e929b47aec7a05d2322ce03a314706/raw > .gitignore
+```
+
 ### config/application.rb
 
 ```
@@ -263,6 +268,8 @@ chmod +x  bin/server
 ## [setup testing](spec_and_capybara_setup.md)
 
 ## Addional Setup
+
+### [multi enviroment credentials](multi_enviroment_credentials.md)
 
 ### error tracker like https://rollbar.com/
 
