@@ -12,6 +12,7 @@ Today I Learned
 * [docker](#docker)
 * [english](#english)
 * [git](#git)
+* [helm](#helm)
 * [kubernetes](#kubernetes)
 * [linux](#linux)
 * [mac](#mac)
@@ -64,7 +65,9 @@ Today I Learned
 
 - [basics](docker/basics.md)
 - [deploy simple rails app on aws](docker/deploy_simple_rails_app_on_aws.md)
+- [networks](docker/networks.md)
 - [run postgresql with docker](docker/run_postgresql_with_docker.md)
+- [volumes](docker/volumes.md)
 
 ---
 
@@ -81,6 +84,12 @@ Today I Learned
 
 - [fixup and autosquash](git/fixup_and_autosquash.md)
 - [resolve merge conflicts](git/resolve_merge_conflicts.md)
+
+---
+
+### helm
+
+- [basics](helm/basics.md)
 
 ---
 
@@ -202,12 +211,14 @@ Today I Learned
 
 ### ruby
 
+- [array bitwise or assignment](ruby/array_bitwise_or_assignment.md)
 - [benchmark code](ruby/benchmark_code.md)
 - [blocks execute around](ruby/blocks_execute_around.md)
 - [blocks save to execute later](ruby/blocks_save_to_execute_later.md)
 - [gem versioning](ruby/gem_versioning.md)
 - [hash with default values](ruby/hash_with_default_values.md)
 - [inject vs each with object](ruby/inject_vs_each_with_object.md)
+- [lazy enumartor](ruby/lazy_enumartor.md)
 - [max by over sort by last](ruby/max_by_over_sort_by_last.md)
 - [memoize pitfall](ruby/memoize_pitfall.md)
 - [ruby2 keyword arguments with options](ruby/ruby2_keyword_arguments_with_options.md)
