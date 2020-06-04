@@ -3,9 +3,16 @@
 
 ### with postgresql and removed stuff
 ```
-  rails new <APPNAME> -T -d postgresql \
-  --skip-sprockets --skip-action-mailer --skip-action-mailbox \
-  --skip-action-text --skip-active-storage --skip-action-cable \
+  rails new <APPNAME> -T \
+  -d postgresql \
+  --skip-action-mailer \
+  --skip-action-mailbox \
+  --skip-action-text \
+  --skip-active-storage  \
+  --skip-action-cable \
+  --skip-spring \
+  --skip-sprockets \
+  --skip-turbolinks \
   --skip-test-unit 
 ```
 
