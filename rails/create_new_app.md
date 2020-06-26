@@ -272,7 +272,7 @@ chmod +x  bin/server
 ```
 ~~~~
 
-## [setup testing](spec_and_capybara_setup.md)
+## [setup testing](rspec_and_capybara_setup.md)
 
 ## Addional Setup
 
