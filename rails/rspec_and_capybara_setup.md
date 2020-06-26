@@ -25,7 +25,6 @@ https://github.com/teamcapybara/capybara
 #in Gemfile group :test add 
   gem "capybara"
   gem "launchy" # for capybara save_and_open_page
-  gem "selenium-webdriver"
   gem "webdrivers"
 ```
 
@@ -44,32 +43,17 @@ require "capybara/rspec"
 RSpec.configure do |config|
   config.include Capybara::RSpecMatchers
 
-  Capybara.default_max_wait_time = 10
+  Capybara.default_max_wait_time = 10 # The maximum number of seconds to wait for asynchronous processes to finish.
   Capybara.default_normalize_ws = true # match DOM Elements with text spanning over multiple line
 
-  if ENV["USE_SELENIUM"].present?
-    Capybara.register_driver :selenium do |app|
-      Capybara::Selenium::Driver.new(app, browser: (ENV["SELENIUM_BROWSER"].presence || :chrome).to_sym)
-    end
+  config.before(:each, type: :system) do
+    driven_by :rack_test
+  end
 
-    Capybara.register_driver :headless_chrome do |app|
-      capabilities = Selenium::WebDriver::Remote::Capabilities.chrome(
-        chromeOptions: { args: %w[no-sandbox headless disable-gpu window-size=1366,1768] }
-      )
-      Capybara::Selenium::Driver.new(app,
-                                     browser:              (ENV["SELENIUM_BROWSER"].presence || :chrome).to_sym,
-                                     desired_capabilities: capabilities)
-    end
-
-    Capybara.javascript_driver = :selenium
-  else
-    config.before(:each, type: :system) do
-      driven_by :rack_test
-    end
-
-    config.before(:each, type: :system, js: true) do
-      driven_by :selenium_chrome_headless
-    end
+  config.before(:each, type: :system, js: true) do
+    # https://api.rubyonrails.org/v6.0.1/classes/ActionDispatch/SystemTestCase.html#method-c-driven_by
+    browser = ENV["SELENIUM_BROWSER"].presence&.to_sym || :headless_chrome
+    driven_by :selenium, using: browser, screen_size: [1600, 1400]
   end
 end
 
