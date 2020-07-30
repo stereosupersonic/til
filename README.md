@@ -24,6 +24,7 @@ Today I Learned
 * [pry](#pry)
 * [python](#python)
 * [rails](#rails)
+* [raspberry_pi](#raspberry_pi)
 * [rspec](#rspec)
 * [ruby](#ruby)
 * [sql](#sql)
@@ -65,6 +66,7 @@ Today I Learned
 
 - [basics](docker/basics.md)
 - [deploy simple rails app on aws](docker/deploy_simple_rails_app_on_aws.md)
+- [docker-compose](docker/docker-compose.md)
 - [networks](docker/networks.md)
 - [run postgresql with docker](docker/run_postgresql_with_docker.md)
 - [volumes](docker/volumes.md)
@@ -197,6 +199,12 @@ Today I Learned
 - [traefik](rails/traefik.md)
 - [use rails root join](rails/use_rails_root_join.md)
 - [useful view helpers](rails/useful_view_helpers.md)
+
+---
+
+### raspberry_pi
+
+- [systeminfo](raspberry_pi/systeminfo.md)
 
 ---
 
