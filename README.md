@@ -68,6 +68,7 @@ Today I Learned
 - [basics](docker/basics.md)
 - [deploy simple rails app on aws](docker/deploy_simple_rails_app_on_aws.md)
 - [docker-compose](docker/docker-compose.md)
+- [dockerfile](docker/dockerfile.md)
 - [networks](docker/networks.md)
 - [run postgresql with docker](docker/run_postgresql_with_docker.md)
 - [volumes](docker/volumes.md)
