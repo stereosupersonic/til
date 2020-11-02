@@ -113,6 +113,9 @@ Today I Learned
 ### linux
 
 - [add usb drive](linux/add_usb_drive.md)
+- [hardware](linux/hardware.md)
+- [hdd](linux/hdd.md)
+- [net](linux/net.md)
 
 ---
 
