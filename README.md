@@ -190,6 +190,7 @@ Today I Learned
 - [migration change column default](rails/migration_change_column_default.md)
 - [migration index postgresql](rails/migration_index_postgresql.md)
 - [multi enviroment credentials](rails/multi_enviroment_credentials.md)
+- [naming conventions](rails/naming_conventions.md)
 - [parse date string in timezone](rails/parse_date_string_in_timezone.md)
 - [restrict route access](rails/restrict_route_access.md)
 - [retry n times](rails/retry_n_times.md)
