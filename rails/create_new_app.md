@@ -75,7 +75,7 @@ development:
 
 test:
   <<: *default
-  database: toread_test
+  database: <APPNAME>_test
 
 production:
   <<: *default
