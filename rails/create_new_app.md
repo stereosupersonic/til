@@ -121,6 +121,8 @@ bundle exec rails webpacker:install
 
 ### add twitter bootstrap
 
+* https://railsbytes.com/public/templates/x9Qsqx
+
 ```
 yarn add bootstrap
 yarn add jquery popper.js
