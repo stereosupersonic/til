@@ -296,7 +296,7 @@ chmod +x  bin/server
 
 ```
 mkdir -p .github/workflows
-touch ci.yml
+touch .github/workflows/ci.yml
 ```
 
 example: https://github.com/stereosupersonic/radiar/blob/master/.github/workflows/ci.yml
