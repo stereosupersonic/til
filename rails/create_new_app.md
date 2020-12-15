@@ -288,6 +288,20 @@ chmod +x  bin/server
 
 [setup testing](rspec_and_capybara_setup.md)
 
+## rubocop 
+
+[setup rubocop](rubocop_setup.md)
+
+## github actions
+
+```
+mkdir .github/workflows
+touch ci.yml
+```
+
+example: https://github.com/stereosupersonic/radiar/blob/master/.github/workflows/ci.yml
+
+
 ## Addional Setup
 
 ### [multi enviroment credentials](multi_enviroment_credentials.md)
@@ -296,5 +310,4 @@ chmod +x  bin/server
 
 ### new_relic APM
 
-### rubocop 
-[setup rubocop](rubocop_setup.md)
+
