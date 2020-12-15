@@ -279,7 +279,9 @@ chmod +x  bin/server
 ```
 ~~~~
 
-## [setup testing](rspec_and_capybara_setup.md)
+## rspec and testing
+
+[setup testing](rspec_and_capybara_setup.md)
 
 ## Addional Setup
 
@@ -287,4 +289,7 @@ chmod +x  bin/server
 
 ### error tracker like https://rollbar.com/
 
-### [setup rubocop](rubocop_setup.md)
+### new_relic APM
+
+### rubocop 
+[setup rubocop](rubocop_setup.md)
