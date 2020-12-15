@@ -52,6 +52,16 @@ AllCops:
     - '**/vendor/**/*'
     - '**/node_modules/**/*'
 
+Layout/LineLength:
+  Max: 130
+
+Style/StringLiterals:
+  Enabled: true
+  EnforcedStyle: double_quotes
+
+Style/HashSyntax:
+  Enabled: true
+  EnforcedStyle: ruby19_no_mixed_keys
 ```
 
 ## copy all other setting 
