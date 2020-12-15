@@ -100,12 +100,14 @@ gem "pry-nav"
 
 ### add haml
 
+* rails app:template LOCATION="https://railsbytes.com/script/x7msKK"
+
 ```
 # Gemfile
 gem "haml-rails", "~> 2.0"
 
 # convert existing layout
-HAML_RAILS_DELETE_ERB=true rails haml:erb2haml
+bundel rake haml:replace_erbs
 ```
 
 ### setup webpacker
