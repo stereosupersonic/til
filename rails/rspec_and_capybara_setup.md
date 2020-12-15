@@ -58,3 +58,24 @@ RSpec.configure do |config|
 end
 
 ```
+
+### setup system spec for root page
+
+```
+mkdir -p spec/system/
+touch spec/system/welcome_spec.rb
+```
+
+#### add first test
+
+```
+require "capybara_helper"
+
+describe "welcome", type: :system do
+  it "shows the tranding tracks of this year" do
+    visit "/"
+
+    expect(page).to_not have_content("Welcome")
+  end
+end
+```
