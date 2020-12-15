@@ -1,5 +1,10 @@
 # Create a new rails 6 app with webpacker and some usefule defaults (2020)
 
+## templates 
+
+* check out https://railsbytes.com/
+* check out https://www.rubidium.io/
+
 
 ### with postgresql and removed stuff
 ```
