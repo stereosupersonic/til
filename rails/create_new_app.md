@@ -106,6 +106,9 @@ gem "pry-nav"
 # Gemfile
 gem "haml-rails", "~> 2.0"
 
+# optional haml linter
+gem "haml_lint"
+
 # convert existing layout
 bundel rake haml:replace_erbs
 ```
