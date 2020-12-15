@@ -301,6 +301,13 @@ touch .github/workflows/ci.yml
 
 example: https://github.com/stereosupersonic/radiar/blob/master/.github/workflows/ci.yml
 
+### test db
+
+```
+touch config/database.yml.github-actions
+```
+
+example https://github.com/stereosupersonic/radiar/blob/master/config/database.yml.github-actions
 
 ## Addional Setup
 
