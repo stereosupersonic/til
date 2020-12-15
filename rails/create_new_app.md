@@ -295,7 +295,7 @@ chmod +x  bin/server
 ## github actions
 
 ```
-mkdir .github/workflows
+mkdir -p .github/workflows
 touch ci.yml
 ```
 
