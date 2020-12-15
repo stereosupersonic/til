@@ -75,7 +75,7 @@ describe "welcome", type: :system do
   it "shows the tranding tracks of this year" do
     visit "/"
 
-    expect(page).to_not have_content("Welcome")
+    expect(page).to have_content("Welcome")
   end
 end
 ```
