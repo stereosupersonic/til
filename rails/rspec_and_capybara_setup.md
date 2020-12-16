@@ -10,6 +10,12 @@ bundle install
 rails generate rspec:install
 ```
 
+uncomment 
+
+```
+config.filter_run_when_matching :focus
+```
+
 ### factory 
 
 https://github.com/thoughtbot/factory_bot_rails
