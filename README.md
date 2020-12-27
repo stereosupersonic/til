@@ -13,6 +13,7 @@ Today I Learned
 * [english](#english)
 * [git](#git)
 * [helm](#helm)
+* [heroku](#heroku)
 * [kubernetes](#kubernetes)
 * [linux](#linux)
 * [mac](#mac)
@@ -94,6 +95,12 @@ Today I Learned
 ### helm
 
 - [basics](helm/basics.md)
+
+---
+
+### heroku
+
+- [basics](heroku/basics.md)
 
 ---
 
