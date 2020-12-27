@@ -12,7 +12,20 @@ brew install heroku
  heroku login
 ```
 
-### deploy
+## stats
+
+```
+heroku ps
+heroku apps:info 
+```
+
+
+## create new app
+
+```
+heroku apps:create MYAPP
+```
+## deploy
 
 ```
 git checkout master
