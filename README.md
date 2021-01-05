@@ -35,6 +35,7 @@ Today I Learned
 * [training](#training)
 * [various](#various)
 * [vim](#vim)
+* [web](#web)
 
 ---
 
@@ -285,3 +286,9 @@ Today I Learned
 ### vim
 
 - [splits](vim/splits.md)
+
+---
+
+### web
+
+- [performance](web/performance.md)
