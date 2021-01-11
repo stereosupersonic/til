@@ -36,6 +36,14 @@ add gitignore
 ```
 curl -L https://gist.githubusercontent.com/stereosupersonic/77e929b47aec7a05d2322ce03a314706/raw > .gitignore
 ```
+### set ruby version in Gemfile
+
+https://andycroll.com/ruby/read-ruby-version-in-your-gemfile/
+
+```
+ruby File.read(".ruby-version").strip
+```
+
 
 ### config/application.rb
 
