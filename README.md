@@ -212,6 +212,7 @@ Today I Learned
 - [serialize to poro](rails/serialize_to_poro.md)
 - [tokens with message verifier](rails/tokens_with_message_verifier.md)
 - [traefik](rails/traefik.md)
+- [use attributes on active model](rails/use_attributes_on_active_model.md)
 - [use rails root join](rails/use_rails_root_join.md)
 - [useful view helpers](rails/useful_view_helpers.md)
 
