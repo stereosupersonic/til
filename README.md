@@ -195,6 +195,7 @@ Today I Learned
 - [create new app](rails/create_new_app.md)
 - [delete active record](rails/delete_active_record.md)
 - [dockerize rails app](rails/dockerize_rails_app.md)
+- [filter params or hash](rails/filter_params_or_hash.md)
 - [find by exceptions](rails/find_by_exceptions.md)
 - [joins](rails/joins.md)
 - [make class abstract](rails/make_class_abstract.md)
