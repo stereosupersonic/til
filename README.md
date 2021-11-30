@@ -6,6 +6,7 @@ Today I Learned
 ### Categories
 
 * [bash](#bash)
+* [bitcoin](#bitcoin)
 * [bootstrap](#bootstrap)
 * [capybara](#capybara)
 * [chrome-devtools](#chrome-devtools)
@@ -44,6 +45,12 @@ Today I Learned
 - [environment variables](bash/environment_variables.md)
 - [search inside selected files](bash/search_inside_selected_files.md)
 - [sed remove part of a string](bash/sed_remove_part_of_a_string.md)
+
+---
+
+### bitcoin
+
+- [glossar](bitcoin/glossar.md)
 
 ---
 
