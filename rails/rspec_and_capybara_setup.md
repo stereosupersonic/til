@@ -4,9 +4,8 @@
 
 ```
 #in Gemfile group :development, :test add 
-gem "rspec-rails"
-#in command line
-bundle install
+bundle add rspec-rails
+
 rails generate rspec:install
 ```
 
