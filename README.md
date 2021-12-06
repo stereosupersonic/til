@@ -5,6 +5,7 @@ Today I Learned
 
 ### Categories
 
+* [ansible](#ansible)
 * [bash](#bash)
 * [bitcoin](#bitcoin)
 * [bootstrap](#bootstrap)
@@ -34,9 +35,16 @@ Today I Learned
 * [tmux](#tmux)
 * [traefik](#traefik)
 * [training](#training)
+* [vagrant](#vagrant)
 * [various](#various)
 * [vim](#vim)
 * [web](#web)
+
+---
+
+### ansible
+
+- [basics](ansible/basics.md)
 
 ---
 
@@ -293,6 +301,12 @@ Today I Learned
 ### training
 
 - [warmup](training/warmup.md)
+
+---
+
+### vagrant
+
+- [basics](vagrant/basics.md)
 
 ---
 
