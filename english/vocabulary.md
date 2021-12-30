@@ -93,3 +93,7 @@ to forge | schmieden
 advances | Fortschritte
 remedy | Abhilfe
 confide | vertrauen /sich verlassen
+scarcity | Knappheit
+incentive | Anreiz
+cold exposure | cold exposure
+exposure | Belastung

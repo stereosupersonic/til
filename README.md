@@ -11,8 +11,10 @@ Today I Learned
 * [bootstrap](#bootstrap)
 * [capybara](#capybara)
 * [chrome-devtools](#chrome-devtools)
+* [common](#common)
 * [docker](#docker)
 * [english](#english)
+* [finance](#finance)
 * [git](#git)
 * [helm](#helm)
 * [heroku](#heroku)
@@ -80,6 +82,12 @@ Today I Learned
 
 ---
 
+### common
+
+- [quotes](common/quotes.md)
+
+---
+
 ### docker
 
 - [basics](docker/basics.md)
@@ -98,6 +106,12 @@ Today I Learned
 - [since for](english/since_for.md)
 - [somebody anybody](english/somebody_anybody.md)
 - [vocabulary](english/vocabulary.md)
+
+---
+
+### finance
+
+- [basics](finance/basics.md)
 
 ---
 

@@ -63,3 +63,13 @@ Vagrant.configure("2") do |config|
   end
 end
 ```
+## disable known_hosts checking
+
+if you got this error "WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!"
+
+change ~/.ssh/known_hosts
+```
+Host 192.168.*.*
+    StrictHostKeyChecking no
+    UserKnownHostsFile /dev/null
+```

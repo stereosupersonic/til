@@ -1,5 +1,6 @@
 # Notifications ActiveSupport
 
+https://edgeguides.rubyonrails.org/active_support_instrumentation.html
 
 ## call
 
