@@ -127,6 +127,7 @@ start each file with "---"
 
 ### variables
 
+https://docs.ansible.com/ansible/latest/user_guide/playbooks_variables.html
 ```
 ---
 - hosts: all
