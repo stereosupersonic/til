@@ -151,6 +151,8 @@ file_name: "/tmp/blah
 ### handlers
 #### running operations on change
 
+https://docs.ansible.com/ansible/latest/user_guide/playbooks_handlers.html
+
 ```
   handlers:
     - name: restart service
