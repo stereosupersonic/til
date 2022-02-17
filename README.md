@@ -47,6 +47,7 @@ Today I Learned
 ### ansible
 
 - [basics](ansible/basics.md)
+- [organize playbook with tasks](ansible/organize_playbook_with_tasks.md)
 
 ---
 
@@ -259,6 +260,7 @@ Today I Learned
 ### raspberry_pi
 
 - [systeminfo](raspberry_pi/systeminfo.md)
+- [sytemd run script](raspberry_pi/sytemd_run_script.md)
 
 ---
 
