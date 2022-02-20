@@ -13,7 +13,8 @@
    [Service]
    Type=simple
    ## Edit the following according to the script permissions
-   User=root # or pi or 
+   User=root 
+   #User=pi
    #Group=users
 
    ## Edit the following with the full path to the compatible Python version and your script
