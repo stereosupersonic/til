@@ -2,7 +2,7 @@
 
 1. Create a new unit file in `/lib/systemd/system/` called `rpi-lcd.service`:
    ```sh
-   sudo nano /lib/systemd/system/rpi-lcd.service
+   sudo vim /lib/systemd/system/rpi-lcd.service
    ```
 
 2. Copy and paste the following in the new unit file:
