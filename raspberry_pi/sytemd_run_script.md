@@ -17,7 +17,7 @@
    #Group=users
 
    ## Edit the following with the full path to the compatible Python version and your script
-   ExecStart=/usr/bin/python /path/to/script.py
+   ExecStart=/usr/bin/python3 /home/stereosonic/raspi-lcd-16x2/lcd.py
 
    Restart=always
    RestartSec=5
