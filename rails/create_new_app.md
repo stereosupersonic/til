@@ -1,6 +1,6 @@
 # Create a new rails 6 app with webpacker and some usefule defaults (2020)
 
-## templates 
+## templates
 
 * check out https://railsbytes.com/
 * check out https://www.rubidium.io/
@@ -10,17 +10,11 @@
 ```
   rails new <APPNAME> -T \
   -d postgresql \
-  --skip-action-mailer \
+  --force \
+  --skip-test \
   --skip-action-mailbox \
-  --skip-action-text \
-  --skip-active-storage  \
-  --skip-action-cable \
-  --skip-spring \
-  --skip-sprockets \
-  --skip-turbolinks \
-  --skip-test-unit 
+  --skip-spring
 ```
-
 
 ### setup git with github
 
@@ -32,7 +26,7 @@ git remote add origin git@github.com:stereosupersonic/<APPNAME>.git
 git push origin master
 ```
 
-add gitignore 
+add gitignore
 ```
 curl -L https://gist.githubusercontent.com/stereosupersonic/77e929b47aec7a05d2322ce03a314706/raw > .gitignore
 ```
@@ -80,7 +74,7 @@ default: &default
   pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
 
 development:
-  <<: *default 
+  <<: *default
   host: <%= ENV.fetch('DATABASE_HOST', '0.0.0.0') %>
   database: <%= ENV.fetch("DATABASE_NAME", "<APPNAME>_development") %>
 
@@ -99,7 +93,7 @@ rails db:setup
 rails db:migrate
 ```
 
-## libaries 
+## libaries
 
 ### add pry
 
@@ -124,70 +118,18 @@ gem "haml_lint"
 bundel rake haml:replace_erbs
 ```
 
-### setup webpacker
+### setup esbuild
 
 ```
-gem 'webpacker', '~> 5.x'
-
-yarn add core-js regenerator-runtime
-
-bundle exec rails webpacker:install
+TODO
 ```
 
 
-### add twitter bootstrap
-
-* https://railsbytes.com/public/templates/x9Qsqx
-
-```
-yarn add bootstrap
-yarn add jquery popper.js
-``` 
-
-
-```
-  # remove old assets folder
-  rm -rf app/assets
-  # create packs folder
-  mkdir -p app/javascript/css
-  touch app/javascript/css/site.scss
-```
-
-```
-# app/javascript/packs/application.js
-import 'bootstrap'
-$(document).on("turbolinks:load", () => {
-  $('[data-toggle="tooltip"]').tooltip()
-  $('[data-toggle="popover"]').popover()
-})
-
-// stylesheets
-import "css/site.scss"
-```
-
-```
-# app/javascript/css/site.scss
-@import "~bootstrap/scss/bootstrap.scss";
-```
-
-```
-# config/webpack/environment.js
-const { environment } = require('@rails/webpacker')
-const webpack = require("webpack") 
-
-environment.plugins.append("Provide", new webpack.ProvidePlugin({ 
-  $: 'jquery',
-  jQuery: 'jquery',
-  Popper: ['popper.js', 'default']
-}))  
-
-module.exports = environment
-```
 
 ### add fortawesome
 
 ```
-yarn add @fortawesome/fontawesome-free 
+yarn add @fortawesome/fontawesome-free
 
 # app/javascript/packs/application.js
 import "@fortawesome/fontawesome-free/css/all.css";
@@ -203,7 +145,7 @@ import "@fortawesome/fontawesome-free/css/all.css";
     %title Toread
     = csrf_meta_tags
     = csp_meta_tag
-    
+
     = stylesheet_pack_tag 'application', media: 'all', 'data-turbolinks-track': 'reload'
     = javascript_pack_tag 'application', 'data-turbolinks-track': 'reload'
   %body{:class => "#{controller_name} #{action_name}"}
@@ -251,7 +193,7 @@ root to: "welcome#index"
 %p= ActiveRecord::Base.connection.execute("SELECT version();").first["version"]
 ```
 
-### setup annotate 
+### setup annotate
 
 ```
 # group :development do
@@ -263,7 +205,7 @@ rails g annotate:install
 ## development
 
 ### bin/server
-``` 
+```
 bundle exec rails s -p 3000
 
 ```
@@ -280,15 +222,15 @@ chmod +x  bin/server
 
 ## development setup
 
-### setup 
+### setup
 
 ```
  bin/rails db:setup
 ```
 
-### start 
+### start
 
-``` 
+```
   bin/webpack-dev-server
   bin/server
 
@@ -299,7 +241,7 @@ chmod +x  bin/server
 
 [setup testing](rspec_and_capybara_setup.md)
 
-## rubocop 
+## rubocop
 
 [setup rubocop](rubocop_setup.md)
 
@@ -327,5 +269,3 @@ example https://github.com/stereosupersonic/radiar/blob/master/config/database.y
 ### error tracker like https://rollbar.com/
 
 ### new_relic APM
-
-
