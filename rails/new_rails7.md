@@ -1,4 +1,4 @@
-# Create a new rails 6 app with webpacker and some usefule defaults (2020)
+# Create a new rails 7.1 app with webpacker and some usefule defaults (2020)
 
 ## templates
 
@@ -13,12 +13,9 @@
   -j esbuild --css bootstrap \
   --force \
   --skip-test \
+  --skip-jbuilder \
   --skip-action-mailbox \
-  --skip-bootsnap \
   --skip-spring
-
-bundle add dockerfile-rails --optimistic --group development
-bin/rails generate dockerfile --compose --postgresql
 ```
 
 ### setup git with github
@@ -97,9 +94,7 @@ rails db:migrate
 ### add pry
 
 ```
-# group :development do
-gem "pry-rails"
-gem "pry-nav"
+bundle add pry-rails --group development
 ```
 
 ### add haml
@@ -108,36 +103,15 @@ gem "pry-nav"
 
 ```
 # Gemfile
-gem "haml-rails", "~> 2.0"
+bundle add haml-rail
 
 # optional haml linter
-gem "haml_lint"
+bundle add haml_lint --group development
 
 # convert existing layout
 bundel rake haml:replace_erbs
 ```
 
-### setup esbuild
-
-```
-# add to package.json
-
-  "scripts": {
-    "build:css": "sass ./app/assets/stylesheets/application.bootstrap.scss:./app/assets/builds/application.css --no-source-map --load-path=node_modules",
-    "build": "esbuild app/javascript/*.* --bundle --sourcemap --outdir=app/assets/builds --public-path=assets"
-  }
-```
-
-
-
-### add fortawesome
-
-```
-yarn add @fortawesome/fontawesome-free
-
-# app/javascript/packs/application.js
-import "@fortawesome/fontawesome-free/css/all.css";
-```
 
 ### Application layout
 
@@ -145,23 +119,25 @@ import "@fortawesome/fontawesome-free/css/all.css";
 !!!
 %html
   %head
-    %meta{:content => "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
-    %title Toread
+    %meta{ name: "viewport", content: "width=device-width,initial-scale=1" }
+    %title WebRadio
+
     = csrf_meta_tags
     = csp_meta_tag
 
-    = stylesheet_pack_tag 'application', media: 'all', 'data-turbolinks-track': 'reload'
-    = javascript_pack_tag 'application', 'data-turbolinks-track': 'reload'
-  %body{:class => "#{controller_name} #{action_name}"}
-    %ul.nav.navbar-light.bg-light
-      %a.navbar-brand{:href => root_path} Home
-      %li.nav-item
-        %a.nav-link{:href => "#"} Link
+    = stylesheet_link_tag "application", "data-turbo-track": "reload"
+    = javascript_include_tag "application", "data-turbo-track": "reload", defer: true
+
+  %body{ class: "#{controller_name} #{action_name}" }
+    .nav.navbar-light.bg-light
+      .container-fluid
+        .d-flex
+          = yield :navbar
     .container
       .row
         - flash.each do |name, msg|
           - if msg.is_a?(String)
-            %div{:class => "alert alert-#{name == :notice ? "success" : "error"}"}
+            %div{:class => "alert alert-#{name == :notice ? 'success' : 'error'} alert-dismissible fade show text-center" role="alert"}
               %a.close{"data-dismiss" => "alert"} ×
               = content_tag :div, msg, :id => "flash_#{name}"
       .row
@@ -206,15 +182,7 @@ rails g annotate:install
 
 ## development
 
-### bin/server
-```
-bundle exec rails s -p 3000
-
-```
-
-```
-chmod +x  bin/server
-```
+### bin/dev
 
 #### README.md
 
