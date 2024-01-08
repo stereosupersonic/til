@@ -128,18 +128,19 @@ bundel rake haml:replace_erbs
     = stylesheet_link_tag "application", "data-turbo-track": "reload"
     = javascript_include_tag "application", "data-turbo-track": "reload", defer: true
 
-  %body{ class: "#{controller_name} #{action_name}" }
-    .nav.navbar-light.bg-light
-      .container-fluid
+  %body{ class: "bg-light #{controller_name} #{action_name}" }
+    .container-fluid.bg-white.border.pb-3
+      .nav.navbar-light.bg-light
+        = link_to "HOME", root_path, class: "navbar-brand"
+        = link_to "some ling", "#", class: "nav-link"
         .d-flex
           = yield :navbar
-    .container
-      .row
-        - flash.each do |name, msg|
-          - if msg.is_a?(String)
-            %div{:class => "alert alert-#{name == :notice ? 'success' : 'error'} alert-dismissible fade show text-center" role="alert"}
-              %a.close{"data-dismiss" => "alert"} ×
-              = content_tag :div, msg, :id => "flash_#{name}"
+
+      - flash.each do |type, msg|
+        - if type == 'alert'
+          = content_tag :div, msg, class: "alert alert-danger", role: :alert
+        - else
+          = content_tag :div, msg, class: "alert alert-primary", role: :alert
       .row
         .col
           = yield
