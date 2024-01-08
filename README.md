@@ -33,10 +33,12 @@ Today I Learned
 * [rspec](#rspec)
 * [ruby](#ruby)
 * [sql](#sql)
+* [stimulus](#stimulus)
 * [testing](#testing)
 * [tmux](#tmux)
 * [traefik](#traefik)
 * [training](#training)
+* [turbo](#turbo)
 * [vagrant](#vagrant)
 * [various](#various)
 * [vim](#vim)
@@ -297,6 +299,12 @@ Today I Learned
 
 ---
 
+### stimulus
+
+- [basics](stimulus/basics.md)
+
+---
+
 ### testing
 
 - [gold master testing](testing/gold_master_testing.md)
@@ -318,6 +326,12 @@ Today I Learned
 ### training
 
 - [warmup](training/warmup.md)
+
+---
+
+### turbo
+
+- [turbo frames](turbo/turbo_frames.md)
 
 ---
 
